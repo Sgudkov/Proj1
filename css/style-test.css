@@ -1,0 +1,271 @@
+
+.navbar {
+	margin:0;
+	padding-right:15px;
+}
+
+.navbar-header{
+	padding-right:10px;
+	margin:0;
+}
+
+.bg-logo{
+	background-image: url(images/navbar-logo.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	width:250px;
+	height:50px;
+}
+.container-fluid{
+	padding-left:0;
+	padding-right:0;
+	margin:0;
+}
+.row{
+	margin:0;
+	padding:0;
+	position:relative;
+}
+.navbar-form{
+	width:500px;
+	position:relative;
+	padding-left:0;
+}
+.form-group{
+	width:350px;
+}
+.btn-success{
+	margin-left:35px;
+	font-weight:bold;
+}
+.form-control{
+	min-width:100%;
+}
+.main-form-contact{
+	width:500px;
+	height:300px;
+	position:relative;
+}
+.main-form-contact h1,h4,h5{
+		color:white;
+		font-weight:bold;
+}
+.button-free-txt{
+	background-color:#FFCD65;
+	height:20px;
+	border:none;
+	border-radius:3px;
+}
+.col-lg-5{
+	position:relative;
+}
+#clients-wrapper{
+	position:relative;
+	margin-top:180px;
+	height:150px;
+}
+.clients-img{
+	margin-top:10px;
+	height:100px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+	align-content: center;
+}
+#why-tank{
+	color:#58606B;
+	padding-bottom:105px;
+}
+#macbook-wrapper{
+	padding:0;
+	margin:0;
+}
+.column-wrapper{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:flex-start;
+}
+.text-wrapper{
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-start;
+	align-items:flex-start;
+	height:100%;
+}
+.icon-1-wrapper{
+	display:flex;
+	margin-left:15px;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+	width:265px;
+	font-weight:bold;
+	font-size:15px;
+}
+.lorem-text{
+	margin-top:20px;
+	display:flex;
+	color:#58606B;
+	opacity:0.7;
+}
+.icon-2-wrapper{
+	margin-top:20px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+	width:280px;
+	font-weight:bold;
+	font-size:15px;
+}
+.icon-3-wrapper{
+	margin-top:20px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+	width:280px;
+	font-weight:bold;
+	font-size:15px;
+}
+.icon-4-wrapper{
+	margin-top:20px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+	width:280px;
+	font-weight:bold;
+	font-size:15px;
+}
+#why-tank-diffrent{
+	padding-bottom:105px;
+	padding-top:100px;
+	color:#58606B;
+	width:100%;
+}
+#slider-text{
+	padding:0;
+}
+.slider-wrapper{
+	display:flex;
+	padding:0;
+	margin:0;
+}
+.icon-5-wrapper{
+	margin-top:100px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+	width:280px;
+	font-weight:bold;
+	font-size:15px;
+	
+}
+
+.boats-img-wrapper{
+	height:400px;
+}
+#container-why-tank{
+	background-color:#F6F6F6;
+}
+.footer-contact{
+	height:300px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	align-items:center;
+}
+.footer-contact__form{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+.footer-contact__text{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	
+}
+.footer-contact__text-default{
+	color:#58606B;
+	font-style:italic;
+	font-size:16px;
+}
+
+
+
+
+
+
+/* Media*/
+	@media (max-width: 575px) {
+			.main-form-contact{
+			margin-top:-100px;
+			width:50%;
+			height:30%;
+		}
+		.main-form-contact h1,h4,h5{
+			color:white;
+			font-size:6px;
+			font-weight:normal;
+		}
+		body{
+			min-width:612px;
+		}
+		
+	  }
+      /* Landscape - телефоны */
+      @media (max-width: 688px) {
+			.main-form-contact{
+			margin-top:-450px;
+			width:50%;
+			height:30%;
+		}
+		.main-form-contact h1,h4,h5{
+			color:white;
+			font-size:12px;
+		}
+		body{
+			min-width:612px;
+		}
+	  }  
+      /* От ландшафтного экрана телефона до потретного планшета */
+      @media (max-width: 979px) {
+		 .main-form-contact{
+			margin-top:-450px;
+		}
+		.main-form-contact h1,h4,h5{
+			color:white;
+			font-size:18px;
+			font-weight:bold;
+		}
+		#why-tank{
+			font-size:20px;
+		}
+	  }
+     @media (min-width: 980px) and (max-width: 1040px) {
+			.main-form-contact{
+				margin-top:-600px;
+				margin-left:100px;
+			}
+	  }
+      /* От портретного планшета до ландшафтного экрана и настольных дисплеев */
+      @media (min-width: 1041px) and (max-width: 1199px) {
+			.main-form-contact{
+				margin-top:-700px;
+				margin-left:130px;
+			}
+	  }
+      /* Большой дисплей */
+      @media (min-width: 1200px) { 
+			.main-form-contact{
+				margin-top:-710px;
+				margin-left:130px;
+			}
+	  }
